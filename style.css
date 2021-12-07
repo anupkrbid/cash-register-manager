@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+:root {
+  --primary-color: #ec4899;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 900px;
+}
+
+.container-center {
+  margin: 0 auto;
+}
+
+footer > * {
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+main > div > * {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+
+.footer-list {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  margin: 0 auto;
+}
+
+.footer-list li {
+  display: inline-block;
+}
+
+table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  border: coral;
+}
+
+table caption {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: large;
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  font-family: inherit;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.25rem;
+}
+
+button {
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  font-size: large;
+  font-family: inherit;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+p {
+  font-size: large;
+  font-family: inherit;
+}
+
+tr,
+td {
+  padding: 0.25rem;
+  border: 1px solid var(--primary-color);
+  width: 100%;
+}
